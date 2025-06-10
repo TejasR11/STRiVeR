@@ -1,5 +1,5 @@
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
+from transformers import AutoModelForVision2Seq, AutoTokenizer, AutoProcessor, TrainingArguments
 from torch.optim import AdamW
 import openai
 import os
@@ -10,10 +10,18 @@ import numpy as np
 import base64
 from PIL import Image
 from io import BytesIO
+from llava.conversation import conv_templates
 
 # Set the cache directory to our workspace
 os.environ['TRANSFORMERS_CACHE'] = '/workspace/models/cache'
 os.environ['HF_HOME'] = '/workspace/models/cache'
+
+# Set device
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"Using device: {device}")
+if torch.cuda.is_available():
+    print(f"GPU: {torch.cuda.get_device_name(0)}")
+    print(f"CUDA Version: {torch.version.cuda}")
 
 # Set OpenAI API key from file if not set in environment
 if not os.getenv('OPENAI_API_KEY'):
@@ -25,6 +33,7 @@ if not os.getenv('OPENAI_API_KEY'):
 
 def build_prompt(question: str, interactions: List[Tuple[str, str]]) -> str:
     """Build the prompt for step-by-step reasoning about shapes"""
+    conv = conv_templates["llava_v1"].copy()
     system = (
         "Please help me answer the following yes/no question about shapes. You should answer step by step, "
         "carefully analyzing the image and breaking down your reasoning into clear steps. "
@@ -32,15 +41,16 @@ def build_prompt(question: str, interactions: List[Tuple[str, str]]) -> str:
         "I will allow you to make up to 5 sequential reasoning steps before answering the question.\n"
         "Please do not repeat steps you have already taken, as this is a waste of time.\n"
         "Once you have enough information, generate your final answer enclosed by <answer>YES</answer> or <answer>NO</answer> tags.\n"
-        f"The question is: {question}\n"
-        "<end_of_turn>\n"
+        f"The question is: {question}"
     )
-    trace = ""
+    conv.system = system
+    
     for model_turn, user_turn in interactions:
-        trace += f"<start_of_turn>model\n{model_turn}\n<end_of_turn>\n"
-        trace += f"<start_of_turn>user\n{user_turn}\n<end_of_turn>\n"
-    trace += "<start_of_turn>model\n"
-    return system + trace
+        conv.append_message(conv.roles[0], user_turn)
+        conv.append_message(conv.roles[1], model_turn)
+    
+    conv.append_message(conv.roles[0], None)
+    return conv.get_prompt()
 
 def verify_step_with_openai(question: str, current_step: str, previous_steps: List[str], image_path: str) -> Tuple[bool, str]:
     """Verify a single reasoning step using OpenAI's visual model"""
@@ -162,12 +172,18 @@ def main():
     questions = questions[:5]
     labels = labels[:5]
     
-    # Initialize model and processor for Qwen2.5-Omni-3B
-    print("Loading Qwen2.5-Omni-3B model...")
-    model_name = "Qwen/Qwen2.5-Omni-3B"
-    from transformers import Qwen2_5OmniForConditionalGeneration, Qwen2_5OmniProcessor
-    model = Qwen2_5OmniForConditionalGeneration.from_pretrained(model_name, torch_dtype="auto", device_map="auto", cache_dir="/workspace/models/cache")
-    processor = Qwen2_5OmniProcessor.from_pretrained(model_name, cache_dir="/workspace/models/cache")
+    # Initialize LLaVA model
+    print("Loading LLaVA model...")
+    model_path = "llava-hf/llava-1.5-7b-hf"
+    
+    tokenizer = AutoTokenizer.from_pretrained(model_path, cache_dir="/workspace/models/cache")
+    processor = AutoProcessor.from_pretrained(model_path, cache_dir="/workspace/models/cache")
+    model = AutoModelForVision2Seq.from_pretrained(
+        model_path,
+        torch_dtype=torch.float16,
+        device_map="auto",
+        cache_dir="/workspace/models/cache"
+    ).to(device)
     
     # Set up OpenAI API key
     openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -226,18 +242,33 @@ def main():
                 # Build prompt with current trajectory
                 prompt = build_prompt(question, [(step, "") for step in trajectory])
                 
+                # Convert numpy array to PIL Image and ensure it's RGB
+                image_pil = Image.fromarray((image * 255).astype(np.uint8))
+                if image_pil.mode != 'RGB':
+                    image_pil = image_pil.convert('RGB')
+                
+                # Resize image to 224x224 (LLaVA's expected size)
+                image_pil = image_pil.resize((224, 224), Image.Resampling.LANCZOS)
+                
+                # Process image and text with LLaVA processor
+                inputs = processor(
+                    text=prompt,
+                    images=image_pil,
+                    return_tensors="pt",
+                    padding=True
+                ).to(device)
+                
                 # Generate next step
-                inputs = processor(prompt, return_tensors="pt", padding=True)
-                inputs = {k: v.to(model.device) for k, v in inputs.items()}
                 outputs = model.generate(
                     **inputs,
-                    max_length=512,
-                    num_return_sequences=1,
+                    max_new_tokens=512,
+                    num_beams=1,
+                    do_sample=True,
                     temperature=0.7,
-                    top_p=0.9,
-                    do_sample=True
+                    top_p=0.9
                 )
-                response = processor.decode(outputs[0].cpu().numpy().tolist(), skip_special_tokens=True)
+                
+                response = tokenizer.decode(outputs[0], skip_special_tokens=True)
                 print(f"Generated response: {response}")
                 
                 # Verify this step
