@@ -1,0 +1,803 @@
+Dataset: val
+Total samples: 200
+
+Sample 0:
+Question: is a circle below below a red shape
+True answer: true
+
+Sample 1:
+Question: is a triangle above right of a square
+True answer: false
+
+Sample 2:
+Question: is a red shape red
+True answer: true
+
+Sample 3:
+Question: is a green shape above below a square
+True answer: true
+
+Sample 4:
+Question: is a red shape red
+True answer: true
+
+Sample 5:
+Question: is a square left of right of a green shape
+True answer: true
+
+Sample 6:
+Question: is a triangle above right of a square
+True answer: false
+
+Sample 7:
+Question: is a triangle above a blue shape
+True answer: false
+
+Sample 8:
+Question: is a green shape above a square
+True answer: true
+
+Sample 9:
+Question: is a triangle above a blue shape
+True answer: true
+
+Sample 10:
+Question: is a triangle above a blue shape
+True answer: false
+
+Sample 11:
+Question: is a circle below a square
+True answer: true
+
+Sample 12:
+Question: is a blue shape right of a circle
+True answer: false
+
+Sample 13:
+Question: is a blue shape right of a circle
+True answer: true
+
+Sample 14:
+Question: is a circle below below a red shape
+True answer: false
+
+Sample 15:
+Question: is a green shape above below a square
+True answer: false
+
+Sample 16:
+Question: is a circle below a square
+True answer: true
+
+Sample 17:
+Question: is a circle below a square
+True answer: false
+
+Sample 18:
+Question: is a green shape right of right of a green shape
+True answer: false
+
+Sample 19:
+Question: is a green shape below a blue shape
+True answer: true
+
+Sample 20:
+Question: is a green shape red
+True answer: false
+
+Sample 21:
+Question: is a blue shape right of a red shape
+True answer: true
+
+Sample 22:
+Question: is a blue shape red
+True answer: false
+
+Sample 23:
+Question: is a green shape below a blue shape
+True answer: false
+
+Sample 24:
+Question: is a blue shape red
+True answer: false
+
+Sample 25:
+Question: is a circle below a square
+True answer: false
+
+Sample 26:
+Question: is a triangle above a blue shape
+True answer: false
+
+Sample 27:
+Question: is a green shape below a blue shape
+True answer: false
+
+Sample 28:
+Question: is a green shape below a blue shape
+True answer: false
+
+Sample 29:
+Question: is a square left of right of a green shape
+True answer: true
+
+Sample 30:
+Question: is a circle below a square
+True answer: false
+
+Sample 31:
+Question: is a triangle above a blue shape
+True answer: false
+
+Sample 32:
+Question: is a green shape below a blue shape
+True answer: false
+
+Sample 33:
+Question: is a green shape right of right of a green shape
+True answer: false
+
+Sample 34:
+Question: is a blue shape above a green shape
+True answer: false
+
+Sample 35:
+Question: is a triangle above right of a square
+True answer: false
+
+Sample 36:
+Question: is a green shape above below a square
+True answer: false
+
+Sample 37:
+Question: is a square left of right of a green shape
+True answer: true
+
+Sample 38:
+Question: is a blue shape right of a red shape
+True answer: true
+
+Sample 39:
+Question: is a blue shape red
+True answer: false
+
+Sample 40:
+Question: is a blue shape right of a red shape
+True answer: true
+
+Sample 41:
+Question: is a triangle above a blue shape
+True answer: true
+
+Sample 42:
+Question: is a red shape red
+True answer: true
+
+Sample 43:
+Question: is a circle below a square
+True answer: false
+
+Sample 44:
+Question: is a red shape red
+True answer: true
+
+Sample 45:
+Question: is a green shape red
+True answer: false
+
+Sample 46:
+Question: is a square left of right of a green shape
+True answer: false
+
+Sample 47:
+Question: is a triangle above right of a square
+True answer: true
+
+Sample 48:
+Question: is a green shape below a blue shape
+True answer: false
+
+Sample 49:
+Question: is a green shape a triangle
+True answer: true
+
+Sample 50:
+Question: is a square left of right of a green shape
+True answer: false
+
+Sample 51:
+Question: is a blue shape right of a red shape
+True answer: false
+
+Sample 52:
+Question: is a green shape below a blue shape
+True answer: false
+
+Sample 53:
+Question: is a green shape below a blue shape
+True answer: false
+
+Sample 54:
+Question: is a red shape red
+True answer: true
+
+Sample 55:
+Question: is a green shape above a square
+True answer: false
+
+Sample 56:
+Question: is a blue shape red
+True answer: false
+
+Sample 57:
+Question: is a triangle above a blue shape
+True answer: false
+
+Sample 58:
+Question: is a circle below below a red shape
+True answer: false
+
+Sample 59:
+Question: is a green shape a triangle
+True answer: true
+
+Sample 60:
+Question: is a blue shape right of a red shape
+True answer: true
+
+Sample 61:
+Question: is a blue shape right of a circle
+True answer: false
+
+Sample 62:
+Question: is a green shape below a blue shape
+True answer: false
+
+Sample 63:
+Question: is a green shape above a square
+True answer: false
+
+Sample 64:
+Question: is a green shape red
+True answer: false
+
+Sample 65:
+Question: is a green shape a triangle
+True answer: false
+
+Sample 66:
+Question: is a blue shape right of a red shape
+True answer: false
+
+Sample 67:
+Question: is a triangle above a blue shape
+True answer: false
+
+Sample 68:
+Question: is a blue shape red
+True answer: false
+
+Sample 69:
+Question: is a blue shape right of a red shape
+True answer: false
+
+Sample 70:
+Question: is a green shape right of right of a green shape
+True answer: true
+
+Sample 71:
+Question: is a green shape above a square
+True answer: true
+
+Sample 72:
+Question: is a blue shape right of a red shape
+True answer: true
+
+Sample 73:
+Question: is a circle below a square
+True answer: true
+
+Sample 74:
+Question: is a blue shape above a green shape
+True answer: false
+
+Sample 75:
+Question: is a green shape above below a square
+True answer: false
+
+Sample 76:
+Question: is a green shape a triangle
+True answer: true
+
+Sample 77:
+Question: is a blue shape right of a red shape
+True answer: false
+
+Sample 78:
+Question: is a blue shape red
+True answer: false
+
+Sample 79:
+Question: is a green shape right of right of a green shape
+True answer: false
+
+Sample 80:
+Question: is a triangle above a blue shape
+True answer: false
+
+Sample 81:
+Question: is a green shape below a blue shape
+True answer: false
+
+Sample 82:
+Question: is a green shape right of right of a green shape
+True answer: false
+
+Sample 83:
+Question: is a blue shape right of a red shape
+True answer: false
+
+Sample 84:
+Question: is a square left of right of a green shape
+True answer: false
+
+Sample 85:
+Question: is a blue shape above a green shape
+True answer: false
+
+Sample 86:
+Question: is a blue shape red
+True answer: false
+
+Sample 87:
+Question: is a green shape a triangle
+True answer: false
+
+Sample 88:
+Question: is a green shape red
+True answer: false
+
+Sample 89:
+Question: is a triangle above right of a square
+True answer: false
+
+Sample 90:
+Question: is a circle below a square
+True answer: false
+
+Sample 91:
+Question: is a triangle above right of a square
+True answer: true
+
+Sample 92:
+Question: is a triangle above a blue shape
+True answer: true
+
+Sample 93:
+Question: is a green shape a triangle
+True answer: true
+
+Sample 94:
+Question: is a triangle above right of a square
+True answer: true
+
+Sample 95:
+Question: is a triangle above right of a square
+True answer: false
+
+Sample 96:
+Question: is a red shape red
+True answer: true
+
+Sample 97:
+Question: is a green shape below a blue shape
+True answer: false
+
+Sample 98:
+Question: is a green shape a triangle
+True answer: true
+
+Sample 99:
+Question: is a green shape above below a square
+True answer: true
+
+Sample 100:
+Question: is a circle below a square
+True answer: false
+
+Sample 101:
+Question: is a green shape above below a square
+True answer: false
+
+Sample 102:
+Question: is a blue shape red
+True answer: false
+
+Sample 103:
+Question: is a blue shape above a green shape
+True answer: true
+
+Sample 104:
+Question: is a square left of right of a green shape
+True answer: false
+
+Sample 105:
+Question: is a green shape above below a square
+True answer: false
+
+Sample 106:
+Question: is a red shape red
+True answer: true
+
+Sample 107:
+Question: is a square left of right of a green shape
+True answer: false
+
+Sample 108:
+Question: is a green shape above a square
+True answer: true
+
+Sample 109:
+Question: is a green shape below a blue shape
+True answer: false
+
+Sample 110:
+Question: is a blue shape right of a circle
+True answer: true
+
+Sample 111:
+Question: is a green shape below a blue shape
+True answer: true
+
+Sample 112:
+Question: is a green shape above a square
+True answer: true
+
+Sample 113:
+Question: is a green shape above a square
+True answer: false
+
+Sample 114:
+Question: is a triangle above a blue shape
+True answer: true
+
+Sample 115:
+Question: is a green shape a triangle
+True answer: false
+
+Sample 116:
+Question: is a red shape red
+True answer: true
+
+Sample 117:
+Question: is a blue shape red
+True answer: false
+
+Sample 118:
+Question: is a circle below below a red shape
+True answer: false
+
+Sample 119:
+Question: is a triangle above a blue shape
+True answer: false
+
+Sample 120:
+Question: is a green shape red
+True answer: false
+
+Sample 121:
+Question: is a blue shape right of a circle
+True answer: false
+
+Sample 122:
+Question: is a green shape right of right of a green shape
+True answer: false
+
+Sample 123:
+Question: is a circle below below a red shape
+True answer: false
+
+Sample 124:
+Question: is a green shape above a square
+True answer: true
+
+Sample 125:
+Question: is a triangle above a blue shape
+True answer: false
+
+Sample 126:
+Question: is a triangle above right of a square
+True answer: true
+
+Sample 127:
+Question: is a blue shape above a green shape
+True answer: false
+
+Sample 128:
+Question: is a triangle above a blue shape
+True answer: true
+
+Sample 129:
+Question: is a green shape right of right of a green shape
+True answer: false
+
+Sample 130:
+Question: is a green shape a triangle
+True answer: false
+
+Sample 131:
+Question: is a green shape above a square
+True answer: false
+
+Sample 132:
+Question: is a blue shape red
+True answer: false
+
+Sample 133:
+Question: is a blue shape red
+True answer: false
+
+Sample 134:
+Question: is a green shape right of right of a green shape
+True answer: false
+
+Sample 135:
+Question: is a green shape red
+True answer: false
+
+Sample 136:
+Question: is a triangle above a blue shape
+True answer: true
+
+Sample 137:
+Question: is a triangle above right of a square
+True answer: false
+
+Sample 138:
+Question: is a green shape above below a square
+True answer: false
+
+Sample 139:
+Question: is a green shape above below a square
+True answer: true
+
+Sample 140:
+Question: is a triangle above right of a square
+True answer: true
+
+Sample 141:
+Question: is a green shape red
+True answer: false
+
+Sample 142:
+Question: is a circle below a square
+True answer: true
+
+Sample 143:
+Question: is a blue shape above a green shape
+True answer: false
+
+Sample 144:
+Question: is a green shape above a square
+True answer: true
+
+Sample 145:
+Question: is a square left of right of a green shape
+True answer: false
+
+Sample 146:
+Question: is a green shape above below a square
+True answer: true
+
+Sample 147:
+Question: is a circle below below a red shape
+True answer: false
+
+Sample 148:
+Question: is a triangle above right of a square
+True answer: false
+
+Sample 149:
+Question: is a blue shape right of a circle
+True answer: false
+
+Sample 150:
+Question: is a square left of right of a green shape
+True answer: false
+
+Sample 151:
+Question: is a green shape above a square
+True answer: false
+
+Sample 152:
+Question: is a circle below a square
+True answer: true
+
+Sample 153:
+Question: is a blue shape right of a circle
+True answer: false
+
+Sample 154:
+Question: is a green shape red
+True answer: false
+
+Sample 155:
+Question: is a green shape above below a square
+True answer: false
+
+Sample 156:
+Question: is a green shape a triangle
+True answer: true
+
+Sample 157:
+Question: is a green shape below a blue shape
+True answer: true
+
+Sample 158:
+Question: is a blue shape above a green shape
+True answer: false
+
+Sample 159:
+Question: is a circle below a square
+True answer: true
+
+Sample 160:
+Question: is a square left of right of a green shape
+True answer: true
+
+Sample 161:
+Question: is a triangle above a blue shape
+True answer: false
+
+Sample 162:
+Question: is a triangle above a blue shape
+True answer: false
+
+Sample 163:
+Question: is a blue shape right of a red shape
+True answer: true
+
+Sample 164:
+Question: is a green shape above below a square
+True answer: false
+
+Sample 165:
+Question: is a triangle above a blue shape
+True answer: true
+
+Sample 166:
+Question: is a green shape a triangle
+True answer: true
+
+Sample 167:
+Question: is a circle below a square
+True answer: true
+
+Sample 168:
+Question: is a green shape a triangle
+True answer: true
+
+Sample 169:
+Question: is a green shape above below a square
+True answer: true
+
+Sample 170:
+Question: is a green shape above a square
+True answer: false
+
+Sample 171:
+Question: is a green shape a triangle
+True answer: false
+
+Sample 172:
+Question: is a green shape above below a square
+True answer: false
+
+Sample 173:
+Question: is a blue shape red
+True answer: false
+
+Sample 174:
+Question: is a circle below a square
+True answer: false
+
+Sample 175:
+Question: is a circle below a square
+True answer: false
+
+Sample 176:
+Question: is a blue shape red
+True answer: false
+
+Sample 177:
+Question: is a circle below below a red shape
+True answer: false
+
+Sample 178:
+Question: is a triangle above a blue shape
+True answer: true
+
+Sample 179:
+Question: is a red shape red
+True answer: true
+
+Sample 180:
+Question: is a green shape red
+True answer: false
+
+Sample 181:
+Question: is a blue shape right of a circle
+True answer: false
+
+Sample 182:
+Question: is a blue shape right of a red shape
+True answer: true
+
+Sample 183:
+Question: is a red shape red
+True answer: true
+
+Sample 184:
+Question: is a green shape right of right of a green shape
+True answer: true
+
+Sample 185:
+Question: is a triangle above a blue shape
+True answer: true
+
+Sample 186:
+Question: is a circle below a square
+True answer: false
+
+Sample 187:
+Question: is a blue shape red
+True answer: false
+
+Sample 188:
+Question: is a blue shape right of a red shape
+True answer: true
+
+Sample 189:
+Question: is a circle below below a red shape
+True answer: false
+
+Sample 190:
+Question: is a blue shape right of a circle
+True answer: false
+
+Sample 191:
+Question: is a square left of right of a green shape
+True answer: false
+
+Sample 192:
+Question: is a square left of right of a green shape
+True answer: true
+
+Sample 193:
+Question: is a green shape above a square
+True answer: false
+
+Sample 194:
+Question: is a blue shape above a green shape
+True answer: false
+
+Sample 195:
+Question: is a green shape red
+True answer: false
+
+Sample 196:
+Question: is a green shape above a square
+True answer: false
+
+Sample 197:
+Question: is a green shape above below a square
+True answer: true
+
+Sample 198:
+Question: is a square left of right of a green shape
+True answer: false
+
+Sample 199:
+Question: is a green shape a triangle
+True answer: false
+

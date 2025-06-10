@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ML specific
+model_cache/
+tmp/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Dataset
+images/
+*.npy
+*.npz
+
+# Logs
+*.log
+logs/
+wandb/
+
+# CUDA
+cuda_*.run
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+
+# Cache
+.cache/
+hf_cache/
+
+# Output
+trainer_output/
+
+# Sensitive Information
+openai_api_key.txt
+
+# Large Data and Model Files
+SHAPES_dataset/
+models/ 

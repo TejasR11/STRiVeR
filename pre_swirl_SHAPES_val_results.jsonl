@@ -1,0 +1,200 @@
+{"question": "is a circle below below a red shape", "true_answer": "true", "model_output": "\nQuestion: is a circle below below a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a triangle above right of a square", "true_answer": "false", "model_output": "\nQuestion: is a triangle above right of a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a red shape red", "true_answer": "true", "model_output": "\nQuestion: is a red shape red\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape above below a square", "true_answer": "true", "model_output": "\nQuestion: is a green shape above below a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a red shape red", "true_answer": "true", "model_output": "\nQuestion: is a red shape red\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a square left of right of a green shape", "true_answer": "true", "model_output": "\nQuestion: is a square left of right of a green shape\nAnswer: No", "extracted_answer": "no", "success": false}
+{"question": "is a triangle above right of a square", "true_answer": "false", "model_output": "\nQuestion: is a triangle above right of a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a triangle above a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape above a square", "true_answer": "true", "model_output": "\nQuestion: is a green shape above a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a triangle above a blue shape", "true_answer": "true", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a triangle above a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a circle below a square", "true_answer": "true", "model_output": "\nQuestion: is a circle below a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a blue shape right of a circle", "true_answer": "false", "model_output": "\nQuestion: is a blue shape right of a circle\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a blue shape right of a circle", "true_answer": "true", "model_output": "\nQuestion: is a blue shape right of a circle\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a circle below below a red shape", "true_answer": "false", "model_output": "\nQuestion: is a circle below below a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape above below a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above below a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a circle below a square", "true_answer": "true", "model_output": "\nQuestion: is a circle below a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a circle below a square", "true_answer": "false", "model_output": "\nQuestion: is a circle below a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape right of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape right of right of a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape below a blue shape", "true_answer": "true", "model_output": "\nQuestion: is a green shape below a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape red", "true_answer": "false", "model_output": "\nQuestion: is a green shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a blue shape right of a red shape", "true_answer": "true", "model_output": "\nQuestion: is a blue shape right of a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a blue shape red", "true_answer": "false", "model_output": "\nQuestion: is a blue shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a green shape below a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape below a blue shape\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a blue shape red", "true_answer": "false", "model_output": "\nQuestion: is a blue shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a circle below a square", "true_answer": "false", "model_output": "\nQuestion: is a circle below a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a triangle above a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape below a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape below a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape below a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape below a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a square left of right of a green shape", "true_answer": "true", "model_output": "\nQuestion: is a square left of right of a green shape\nAnswer: No", "extracted_answer": "no", "success": false}
+{"question": "is a circle below a square", "true_answer": "false", "model_output": "\nQuestion: is a circle below a square\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a triangle above a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape below a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape below a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape right of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape right of right of a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape above a green shape", "true_answer": "false", "model_output": "\nQuestion: is a blue shape above a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a triangle above right of a square", "true_answer": "false", "model_output": "\nQuestion: is a triangle above right of a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape above below a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above below a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a square left of right of a green shape", "true_answer": "true", "model_output": "\nQuestion: is a square left of right of a green shape\nAnswer: No", "extracted_answer": "no", "success": false}
+{"question": "is a blue shape right of a red shape", "true_answer": "true", "model_output": "\nQuestion: is a blue shape right of a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a blue shape red", "true_answer": "false", "model_output": "\nQuestion: is a blue shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a blue shape right of a red shape", "true_answer": "true", "model_output": "\nQuestion: is a blue shape right of a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a triangle above a blue shape", "true_answer": "true", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a red shape red", "true_answer": "true", "model_output": "\nQuestion: is a red shape red\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a circle below a square", "true_answer": "false", "model_output": "\nQuestion: is a circle below a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a red shape red", "true_answer": "true", "model_output": "\nQuestion: is a red shape red\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape red", "true_answer": "false", "model_output": "\nQuestion: is a green shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a square left of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a square left of right of a green shape\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a triangle above right of a square", "true_answer": "true", "model_output": "\nQuestion: is a triangle above right of a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape below a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape below a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape a triangle", "true_answer": "true", "model_output": "\nQuestion: is a green shape a triangle\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a square left of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a square left of right of a green shape\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a blue shape right of a red shape", "true_answer": "false", "model_output": "\nQuestion: is a blue shape right of a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape below a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape below a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape below a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape below a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a red shape red", "true_answer": "true", "model_output": "\nQuestion: is a red shape red\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape above a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape red", "true_answer": "false", "model_output": "\nQuestion: is a blue shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a triangle above a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a circle below below a red shape", "true_answer": "false", "model_output": "\nQuestion: is a circle below below a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape a triangle", "true_answer": "true", "model_output": "\nQuestion: is a green shape a triangle\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a blue shape right of a red shape", "true_answer": "true", "model_output": "\nQuestion: is a blue shape right of a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a blue shape right of a circle", "true_answer": "false", "model_output": "\nQuestion: is a blue shape right of a circle\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape below a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape below a blue shape\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a green shape above a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape red", "true_answer": "false", "model_output": "\nQuestion: is a green shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a green shape a triangle", "true_answer": "false", "model_output": "\nQuestion: is a green shape a triangle\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape right of a red shape", "true_answer": "false", "model_output": "\nQuestion: is a blue shape right of a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a triangle above a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape red", "true_answer": "false", "model_output": "\nQuestion: is a blue shape red\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape right of a red shape", "true_answer": "false", "model_output": "\nQuestion: is a blue shape right of a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape right of right of a green shape", "true_answer": "true", "model_output": "\nQuestion: is a green shape right of right of a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape above a square", "true_answer": "true", "model_output": "\nQuestion: is a green shape above a square\nAnswer: No", "extracted_answer": "no", "success": false}
+{"question": "is a blue shape right of a red shape", "true_answer": "true", "model_output": "\nQuestion: is a blue shape right of a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a circle below a square", "true_answer": "true", "model_output": "\nQuestion: is a circle below a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a blue shape above a green shape", "true_answer": "false", "model_output": "\nQuestion: is a blue shape above a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape above below a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above below a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape a triangle", "true_answer": "true", "model_output": "\nQuestion: is a green shape a triangle\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a blue shape right of a red shape", "true_answer": "false", "model_output": "\nQuestion: is a blue shape right of a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape red", "true_answer": "false", "model_output": "\nQuestion: is a blue shape red\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape right of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape right of right of a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a triangle above a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape below a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape below a blue shape\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a green shape right of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape right of right of a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape right of a red shape", "true_answer": "false", "model_output": "\nQuestion: is a blue shape right of a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a square left of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a square left of right of a green shape\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a blue shape above a green shape", "true_answer": "false", "model_output": "\nQuestion: is a blue shape above a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape red", "true_answer": "false", "model_output": "\nQuestion: is a blue shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a green shape a triangle", "true_answer": "false", "model_output": "\nQuestion: is a green shape a triangle\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape red", "true_answer": "false", "model_output": "\nQuestion: is a green shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a triangle above right of a square", "true_answer": "false", "model_output": "\nQuestion: is a triangle above right of a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a circle below a square", "true_answer": "false", "model_output": "\nQuestion: is a circle below a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a triangle above right of a square", "true_answer": "true", "model_output": "\nQuestion: is a triangle above right of a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a triangle above a blue shape", "true_answer": "true", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape a triangle", "true_answer": "true", "model_output": "\nQuestion: is a green shape a triangle\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a triangle above right of a square", "true_answer": "true", "model_output": "\nQuestion: is a triangle above right of a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a triangle above right of a square", "true_answer": "false", "model_output": "\nQuestion: is a triangle above right of a square\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a red shape red", "true_answer": "true", "model_output": "\nQuestion: is a red shape red\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape below a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape below a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape a triangle", "true_answer": "true", "model_output": "\nQuestion: is a green shape a triangle\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape above below a square", "true_answer": "true", "model_output": "\nQuestion: is a green shape above below a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a circle below a square", "true_answer": "false", "model_output": "\nQuestion: is a circle below a square\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a green shape above below a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above below a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape red", "true_answer": "false", "model_output": "\nQuestion: is a blue shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a blue shape above a green shape", "true_answer": "true", "model_output": "\nQuestion: is a blue shape above a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a square left of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a square left of right of a green shape\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a green shape above below a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above below a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a red shape red", "true_answer": "true", "model_output": "\nQuestion: is a red shape red\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a square left of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a square left of right of a green shape\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a green shape above a square", "true_answer": "true", "model_output": "\nQuestion: is a green shape above a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape below a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape below a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape right of a circle", "true_answer": "true", "model_output": "\nQuestion: is a blue shape right of a circle\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape below a blue shape", "true_answer": "true", "model_output": "\nQuestion: is a green shape below a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape above a square", "true_answer": "true", "model_output": "\nQuestion: is a green shape above a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape above a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a triangle above a blue shape", "true_answer": "true", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape a triangle", "true_answer": "false", "model_output": "\nQuestion: is a green shape a triangle\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a red shape red", "true_answer": "true", "model_output": "\nQuestion: is a red shape red\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a blue shape red", "true_answer": "false", "model_output": "\nQuestion: is a blue shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a circle below below a red shape", "true_answer": "false", "model_output": "\nQuestion: is a circle below below a red shape\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a triangle above a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape red", "true_answer": "false", "model_output": "\nQuestion: is a green shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a blue shape right of a circle", "true_answer": "false", "model_output": "\nQuestion: is a blue shape right of a circle\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape right of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape right of right of a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a circle below below a red shape", "true_answer": "false", "model_output": "\nQuestion: is a circle below below a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape above a square", "true_answer": "true", "model_output": "\nQuestion: is a green shape above a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a triangle above a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a triangle above right of a square", "true_answer": "true", "model_output": "\nQuestion: is a triangle above right of a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a blue shape above a green shape", "true_answer": "false", "model_output": "\nQuestion: is a blue shape above a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a triangle above a blue shape", "true_answer": "true", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape right of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape right of right of a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape a triangle", "true_answer": "false", "model_output": "\nQuestion: is a green shape a triangle\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape above a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape red", "true_answer": "false", "model_output": "\nQuestion: is a blue shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a blue shape red", "true_answer": "false", "model_output": "\nQuestion: is a blue shape red\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape right of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a green shape right of right of a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape red", "true_answer": "false", "model_output": "\nQuestion: is a green shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a triangle above a blue shape", "true_answer": "true", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a triangle above right of a square", "true_answer": "false", "model_output": "\nQuestion: is a triangle above right of a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape above below a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above below a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape above below a square", "true_answer": "true", "model_output": "\nQuestion: is a green shape above below a square\nAnswer: No", "extracted_answer": "no", "success": false}
+{"question": "is a triangle above right of a square", "true_answer": "true", "model_output": "\nQuestion: is a triangle above right of a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape red", "true_answer": "false", "model_output": "\nQuestion: is a green shape red\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a circle below a square", "true_answer": "true", "model_output": "\nQuestion: is a circle below a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a blue shape above a green shape", "true_answer": "false", "model_output": "\nQuestion: is a blue shape above a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape above a square", "true_answer": "true", "model_output": "\nQuestion: is a green shape above a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a square left of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a square left of right of a green shape\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a green shape above below a square", "true_answer": "true", "model_output": "\nQuestion: is a green shape above below a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a circle below below a red shape", "true_answer": "false", "model_output": "\nQuestion: is a circle below below a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a triangle above right of a square", "true_answer": "false", "model_output": "\nQuestion: is a triangle above right of a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape right of a circle", "true_answer": "false", "model_output": "\nQuestion: is a blue shape right of a circle\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a square left of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a square left of right of a green shape\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a green shape above a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a circle below a square", "true_answer": "true", "model_output": "\nQuestion: is a circle below a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a blue shape right of a circle", "true_answer": "false", "model_output": "\nQuestion: is a blue shape right of a circle\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape red", "true_answer": "false", "model_output": "\nQuestion: is a green shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a green shape above below a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above below a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape a triangle", "true_answer": "true", "model_output": "\nQuestion: is a green shape a triangle\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape below a blue shape", "true_answer": "true", "model_output": "\nQuestion: is a green shape below a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a blue shape above a green shape", "true_answer": "false", "model_output": "\nQuestion: is a blue shape above a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a circle below a square", "true_answer": "true", "model_output": "\nQuestion: is a circle below a square\nAnswer: No", "extracted_answer": "no", "success": false}
+{"question": "is a square left of right of a green shape", "true_answer": "true", "model_output": "\nQuestion: is a square left of right of a green shape\nAnswer: No", "extracted_answer": "no", "success": false}
+{"question": "is a triangle above a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a triangle above a blue shape", "true_answer": "false", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape right of a red shape", "true_answer": "true", "model_output": "\nQuestion: is a blue shape right of a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape above below a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above below a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a triangle above a blue shape", "true_answer": "true", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape a triangle", "true_answer": "true", "model_output": "\nQuestion: is a green shape a triangle\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a circle below a square", "true_answer": "true", "model_output": "\nQuestion: is a circle below a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape a triangle", "true_answer": "true", "model_output": "\nQuestion: is a green shape a triangle\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape above below a square", "true_answer": "true", "model_output": "\nQuestion: is a green shape above below a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape above a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above a square\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a green shape a triangle", "true_answer": "false", "model_output": "\nQuestion: is a green shape a triangle\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape above below a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above below a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape red", "true_answer": "false", "model_output": "\nQuestion: is a blue shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a circle below a square", "true_answer": "false", "model_output": "\nQuestion: is a circle below a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a circle below a square", "true_answer": "false", "model_output": "\nQuestion: is a circle below a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape red", "true_answer": "false", "model_output": "\nQuestion: is a blue shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a circle below below a red shape", "true_answer": "false", "model_output": "\nQuestion: is a circle below below a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a triangle above a blue shape", "true_answer": "true", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a red shape red", "true_answer": "true", "model_output": "\nQuestion: is a red shape red\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape red", "true_answer": "false", "model_output": "\nQuestion: is a green shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a blue shape right of a circle", "true_answer": "false", "model_output": "\nQuestion: is a blue shape right of a circle\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape right of a red shape", "true_answer": "true", "model_output": "\nQuestion: is a blue shape right of a red shape\nAnswer: No", "extracted_answer": "no", "success": false}
+{"question": "is a red shape red", "true_answer": "true", "model_output": "\nQuestion: is a red shape red\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a green shape right of right of a green shape", "true_answer": "true", "model_output": "\nQuestion: is a green shape right of right of a green shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a triangle above a blue shape", "true_answer": "true", "model_output": "\nQuestion: is a triangle above a blue shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a circle below a square", "true_answer": "false", "model_output": "\nQuestion: is a circle below a square\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a blue shape red", "true_answer": "false", "model_output": "\nQuestion: is a blue shape red\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a blue shape right of a red shape", "true_answer": "true", "model_output": "\nQuestion: is a blue shape right of a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a circle below below a red shape", "true_answer": "false", "model_output": "\nQuestion: is a circle below below a red shape\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a blue shape right of a circle", "true_answer": "false", "model_output": "\nQuestion: is a blue shape right of a circle\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a square left of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a square left of right of a green shape\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a square left of right of a green shape", "true_answer": "true", "model_output": "\nQuestion: is a square left of right of a green shape\nAnswer: No", "extracted_answer": "no", "success": false}
+{"question": "is a green shape above a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above a square\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a blue shape above a green shape", "true_answer": "false", "model_output": "\nQuestion: is a blue shape above a green shape\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a green shape red", "true_answer": "false", "model_output": "\nQuestion: is a green shape red\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape above a square", "true_answer": "false", "model_output": "\nQuestion: is a green shape above a square\nAnswer: Yes", "extracted_answer": "yes", "success": false}
+{"question": "is a green shape above below a square", "true_answer": "true", "model_output": "\nQuestion: is a green shape above below a square\nAnswer: Yes", "extracted_answer": "yes", "success": true}
+{"question": "is a square left of right of a green shape", "true_answer": "false", "model_output": "\nQuestion: is a square left of right of a green shape\nAnswer: No", "extracted_answer": "no", "success": true}
+{"question": "is a green shape a triangle", "true_answer": "false", "model_output": "\nQuestion: is a green shape a triangle\nAnswer: Yes", "extracted_answer": "yes", "success": false}
