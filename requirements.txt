@@ -1,0 +1,9 @@
+torch
+numpy
+pillow
+openai
+transformers
+qwen-omni-utils
+peft
+trl
+bitsandbytes 
