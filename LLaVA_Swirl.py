@@ -35,25 +35,25 @@ processor.tokenizer.pad_token = tokenizer.eos_token
 
 model = AutoModelForVision2Seq.from_pretrained(
     MODEL_ID,
-    torch_dtype=torch.float32,
+    torch_dtype=torch.bfloat16,
     device_map="auto",
     cache_dir=cache_dir
-).to(device)
+)
 
 model.resize_token_embeddings(32001)
 
 # Dataset configuration
 SPLIT = "train.large"
 SHAPES_ROOT = "/root/SHAPES_dataset"
-NUM_SAMPLES = 1000
+NUM_SAMPLES = 10000
 
 # Load questions, images, and true yes/no answers
 # Handle the special case for the 'train.large' split file naming
 if SPLIT == "train.large":
-    # The 'ls' command showed the main training files don't have a '.large' suffix
-    query_file = os.path.join(SHAPES_ROOT, "train.query_str.txt")
-    output_file = os.path.join(SHAPES_ROOT, "train.output")
-    images_file = os.path.join(SHAPES_ROOT, "train.input.npy")
+    # The 'ls' command showed the main training files are in a subdirectory
+    query_file = os.path.join(SHAPES_ROOT, "train.large.query_str.txt")
+    output_file = os.path.join(SHAPES_ROOT, "train.large.output")
+    images_file = os.path.join(SHAPES_ROOT, "train.large.input.npy")
 else:
     query_file = os.path.join(SHAPES_ROOT, f"{SPLIT}.query_str.txt")
     output_file = os.path.join(SHAPES_ROOT, f"{SPLIT}.output")
@@ -155,11 +155,12 @@ def verify_step_with_openai(question, image_pil, step_text):
 
 # --- Custom RLHF Training Loop ---
 BATCH_SIZE = 1
-EPOCHS = 1
-SAVE_EVERY = 5
+EPOCHS = 3
+SAVE_EVERY = 500 # We'll save every 500 steps
+CHECKPOINT_PATH = "/root/llava-swirl-shapes-rlhf-checkpoint" # Overwrite this path
 ACCUMULATION_STEPS = 4
 
-optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
+optimizer = torch.optim.AdamW(model.parameters(), lr=5e-5)
 
 def collate_fn(batch):
     return list(zip(*batch))  # returns (questions, images, true_answers) as lists
@@ -214,8 +215,8 @@ for epoch in range(EPOCHS):
             pred_bool = (pred == 'yes')
             final_ok = (pred_bool == true_ans_bool)
 
-            # Reward: +1 per correct step, +3 for correct final answer, -3 for wrong final answer
-            reward = sum(step_results) + (3 if final_ok else -3)
+            # Reward: +1 per correct step, +5 for correct final answer, -5 for wrong final answer
+            reward = sum(step_results) + (5 if final_ok else -5)
             rewards.append(reward)
         rewards = torch.tensor(rewards, dtype=torch.float32, device=device)
         # Compute logprobs for generated responses
@@ -258,9 +259,11 @@ for epoch in range(EPOCHS):
             print(f"Epoch {epoch+1}, Step {step+1}, Loss: {loss.item() * ACCUMULATION_STEPS:.4f}, Reward: {rewards.mean().item():.2f}")
             step += 1
             if step % SAVE_EVERY == 0:
-                model.save_pretrained(f"/root/llava-swirl-shapes-rlhf-step{step}")
-                print(f"Model saved at step {step}")
+                model.save_pretrained(CHECKPOINT_PATH) # Use the constant path
+                tokenizer.save_pretrained(CHECKPOINT_PATH) # Also save the tokenizer
+                print(f"Model checkpoint saved to {CHECKPOINT_PATH} at step {step}")
 
 print("Training complete.")
 model.save_pretrained("/root/llava-swirl-shapes-rlhf-final")
+tokenizer.save_pretrained("/root/llava-swirl-shapes-rlhf-final") # Also save tokenizer
 print("Final model saved.")

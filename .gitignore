@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# Environment
+.env
+venv/
+env/
+
+# Data and Models
+/root/model_cache/
+/root/SHAPES_dataset/
+/root/llava-swirl-shapes-rlhf-final/
+/workspace/model_cache/
+model_cache/
+SHAPES_dataset/
+llava-swirl-shapes-rlhf-final/
+
+# Output files
+*.jsonl
+images/
+dataset_info.txt
+*.png
+*.npy 
