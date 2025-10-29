@@ -2,13 +2,6 @@
 
 This repository contains the code for evaluating a fine-tuned LLaVA-1.5 7B model on the SHAPES dataset.
 
-## Project Structure
-
-- `pre_swirl_shapes.py`: The main Python script to run the evaluation.
-- `requirements.txt`: A list of Python dependencies required for this project.
-- `methods_section.md`: A detailed, technical "Methods" section suitable for a research paper.
-- `.gitignore`: Specifies files and directories to be ignored by Git.
-
 ## Setup and Installation
 
 ### 1. Clone the Repository
